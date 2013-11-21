@@ -1,0 +1,78 @@
+#weatherWidget
+{
+	padding: 0 0 25px 0;
+	background-image: url(weather_panel_bottom.gif);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	color: #FFFFFF;
+	font-size: 95%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#weatherWidget h2
+{
+	padding: 23px 25px 25px 25px;
+	background-image: url(weather_panel_top.gif);
+	background-repeat: no-repeat;
+	font-size: 135%;
+	font-weight: normal;
+}
+
+#weatherWidget p
+{
+	margin: 0 25px;
+}
+
+#weatherWidget ul
+{
+	margin: 0 25px;
+	list-style: none;
+}
+
+#weatherWidget li
+{
+	margin: 1em 0 0 0;
+	padding: 0 0 0 20px;
+	background-image: url(weather_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+}
+
+#weatherWidget a
+{
+	color: #FFFFFF;
+}
+
+#weatherWidget a:hover
+{
+	text-decoration: none;
+}
+
+#forecast
+{
+	min-height: 81px;
+	margin: 0 25px;
+	padding: 0 0 0 91px;
+}
+
+* html #forecast
+{
+	height: 81px;
+}
+
+#forecast.partlyCloudy
+{
+	background-image: url(weather_icon_partly_cloudy.gif);
+	background-repeat: no-repeat;
+}
+
+#forecast p
+{
+	margin: 0;
+}
+
+#temperature
+{
+	padding-top: 0.25em;
+	font-size: 300%;
+}

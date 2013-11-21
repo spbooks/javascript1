@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <title>Dependent Fields</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="dependentfields.css" />
+    <script type="text/javascript" src="core.js"></script>
+    <script type="text/javascript" src="dependentfields.js"></script>
+  </head>
+  <body>
+    <h1>Which Enterprise?</h1>
+    <form action="thanks.html" method="post">
+      <fieldset>
+        <legend>Which is your favorite ship named Enterprise?</legend>
+        <div>
+          <label for="nx01"><input type="radio" name="whichenterprise" value="nx01" id="nx01" /> Enterprise NX-01</label>
+        </div>
+        <div>
+          <label for="ncc1701"><input type="radio" name="whichenterprise" value="ncc1701" id="ncc1701" /> USS Enterprise NCC-1701 (Constitution class)</label>
+          <label for="ncc1701refit" class="secondary"><input type="checkbox" class="dependent" name="ncc1701refit" id="ncc1701refit" value="ncc1701refit" /> Post-refit</label>
+        </div>
+        <div>
+          <label for="ncc1701a"><input type="radio" name="whichenterprise" value="ncc1701a" id="ncc1701a" /> USS Enterprise NCC-1701-A (Enterprise class)</label>
+        </div>
+        <div>
+          <label for="ncc1701b"><input type="radio" name="whichenterprise" value="ncc1701b" id="ncc1701b" /> USS Enterprise NCC-1701-B (Excelsior class)</label>
+        </div>
+        <div>
+          <label for="ncc1701c"><input type="radio" name="whichenterprise" value="ncc1701c" id="ncc1701c" /> USS Enterprise NCC-1701-C (Ambassador class)</label>
+        </div>
+        <div>
+          <label for="ncc1701d"><input type="radio" name="whichenterprise" value="ncc1701d" id="ncc1701d" /> USS Enterprise NCC-1701-D (Galaxy class)</label>
+        </div>
+        <div>
+          <label for="ncc1701e"><input type="radio" name="whichenterprise" value="ncc1701e" id="ncc1701e" /> USS Enterprise NCC-1701-E (Sovereign class)</label>
+        </div>
+        <div>
+          <label for="ncc1701j"><input type="radio" name="whichenterprise" value="ncc1701j" id="ncc1701j" /> USS Enterprise NCC-1701-J (unknown class)</label>
+        </div>
+      </fieldset>
+      <div><input type="submit" value="Submit" /></div>
+    </form>
+  </body>
+</html>

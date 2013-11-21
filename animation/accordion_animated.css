@@ -1,0 +1,104 @@
+/* Basic element styles */
+
+body {
+  background-color: #2E2E33;
+  color: #FFF;
+  font: small Verdana, Arial, sans-serif;
+}
+
+a:link {
+  color: #C0C0FF;
+}
+
+a:visited {
+  color: #A0A0FF;
+}
+
+/* Accordion styles (static) */
+
+ul.accordion {
+  background-color: #3E3E55;
+  border: 1px solid #FFF;
+  border-top: none;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative; /* Forces the bottom border of the h2 to display in IE */
+}
+
+ul.accordion li {
+  clear: left;
+}
+
+ul.accordion h2 {
+  background-color: #DF7700;
+  border: 1px solid #FFF;
+  border-width: 1px 0;
+  font-size: 1.5em;
+  margin: 0 0 -1px;
+}
+
+ul.accordion h2 a:link, ul.accordion h2 a:visited {
+  color: #fff;
+  display: block;
+  margin: 1px;
+  padding: 0 0.667em;
+  text-decoration: none;
+}
+
+/* Accordion styles (dynamic) */
+
+.accordionContent {
+	overflow: hidden;
+  padding: 0 1em;
+}
+
+li.collapsed .accordionContent {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Fixes Safari bug that prevents expanded content from displaying.
+   See http://betech.virginia.edu/bugs/safari-stickyposition.html */
+li.collapsed .accordionContent p {
+  position: relative;
+}
+
+ul.accordion li.collapsed h2 a:hover, ul.accordion li.collapsed h2 a:focus,
+ul.accordion li.collapsed h2 a:active,
+ul.accordion li.expanded h2 a:link, ul.accordion li.expanded h2 a:visited {
+  background-color: #F0A000;
+}
+
+/* Accordion content styles (static) */
+
+ul.accordion h3 {
+  font-size: 1.1em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+ul.accordion p {
+  display: inline;
+  float: left;
+  clear: left;
+  width: 50%;
+  margin: 1em 0 0 0;
+}
+
+ul.accordion div.links {
+	margin: 1em 0 1em 50%;
+}
+
+div.links ul {
+	list-style: none;
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+
+div.links li {
+  clear: none;
+  display: inline;
+  margin: 0 3em 0 0;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<city>
+  <name>Melbourne</name>
+  <temperature>18</temperature>
+  <description>Fine, partly cloudy</description>
+  <description_class>partlyCloudy</description_class>
+</city>

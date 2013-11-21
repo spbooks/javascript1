@@ -1,0 +1,7 @@
+#robot {
+	width: 150px;
+	height: 150px;
+	background-image: url(robot_strip.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

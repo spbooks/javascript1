@@ -1,0 +1,20 @@
+/* Zero default margin & padding around common elements */
+body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, li, ol, p, ul
+{
+	margin: 0;
+	border: 0 none #FFFFFF;
+	padding: 0;
+}
+
+body
+{
+	padding: 20px;
+	font-size: 90%;
+	font-family: "Baskerville", sans-serif;
+}
+
+h1
+{
+	font-size: 225%;
+	font-family: "Univers Light Condensed", sans-serif;
+}

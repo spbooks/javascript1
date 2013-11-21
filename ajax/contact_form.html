@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <title>Contact Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link rel="stylesheet" href="plain.css" type="text/css" />
+    <link rel="stylesheet" href="contact_form.css" type="text/css" />
+    <!--[if lte IE 7]>
+        <link rel="stylesheet" href="contact_form.ie.css" type="text/css" />
+    <![endif]-->
+    <script type="text/javascript" src="core.js"></script>
+    <script type="text/javascript" src="contact_form.js"></script>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <form id="contactForm" action="form_mailer.php" method="POST">
+      <fieldset>
+        <legend>
+          <span>Contact Form</span>
+        </legend>
+        <ol>
+          <li>
+            <label for="contactName">
+              Name
+            </label>
+            <input id="contactName" name="contactName" type="text" />
+          </li>
+          <li>
+            <label for="contactEmail">
+              Email Address
+            </label>
+            <input id="contactEmail" name="contactEmail" type="text" />
+          </li>
+          <li>
+            <label for="contactType">
+              Message Type
+            </label>
+            <select id="contactType" name="contactType">
+              <option value="1">Enquiry</option>
+              <option value="2">Spam</option>
+              <option value="3">Wedding proposal</option>
+            </select>
+          </li>
+          <li>
+            <label for="contactMessage">
+              Message
+            </label>
+            <textarea id="contactMessage" name="contactMessage" cols="25" rows="5"></textarea>
+          </li>
+          <li class="checkbox">
+            <input id="contactNewsletter" name="contactNewsletter" type="checkbox" value="1" />
+            <label for="contactNewsletter">
+              I'd like to receive your hourly newsletter
+            </label>
+          </li>
+          <li>
+            <fieldset>
+              <legend>
+                Respond by
+              </legend>
+              <ol>
+                <li>
+                  <input id="contactMethodA" name="contactMethod" type="radio" value="1" />
+                  <label for="contactMethodA">
+                    Email
+                  </label>
+                </li>
+                <li>
+                  <input id="contactMethodB" name="contactMethod" type="radio" value="2" />
+                  <label for="contactMethodB">
+                    Pony messenger
+                  </label>
+                </li>
+              </ol>
+            </fieldset>
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset class="submit">
+        <input type="hidden" name="id" value="SS56789" />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

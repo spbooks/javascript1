@@ -1,0 +1,119 @@
+form
+{
+	width: 30em;
+}
+
+fieldset
+{
+	position: relative;
+	float: left;
+	clear: left;
+	width: 100%;
+	margin: 0 0 -1em 0;
+	padding: 0 0 1em 0;
+	border-style: none;
+	border-top: 1px solid #BFBAB0;
+	border-bottom: 1px solid #BFBAB0;
+	background-color: #F2EFE9;
+	background-image: url(fieldset_gradient.jpg);
+	background-repeat: repeat-x;
+}
+
+legend
+{
+	padding: 0;
+	color: #545351;
+	font-weight: bold;
+}
+
+legend span
+{
+	position: absolute;
+	left: 0.74em;
+	top: 0;
+	margin-top: 0.5em;
+	font-size: 135%;
+}
+
+fieldset ol
+{
+	padding: 3.5em 1em 0 1em;
+	list-style: none;
+}
+
+fieldset li
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+fieldset li.checkbox
+{
+	float: none;
+	padding-left: 8em;
+	width: auto;
+}
+
+label
+{
+	float: left;
+	margin-right: 1em;
+	width: 7em;
+}
+
+li.checkbox label
+{
+	float: none;
+  margin: 0;
+  width: auto;
+}
+
+fieldset fieldset
+{
+	margin-bottom: -2.5em;
+	border-style: none;
+	background-color: transparent;
+	background-image: none;
+}
+
+fieldset fieldset legend
+{
+	margin-left: 0;
+	color: #000000;
+	font-weight: normal;
+}
+
+fieldset fieldset ol
+{
+	position: relative;
+	top: -1.4em;
+	margin: 0 0 0 8em;
+	padding: 0;
+}
+
+fieldset fieldset label
+{
+	float: none;
+	width: auto;
+	margin-right: auto;
+}
+
+fieldset.submit
+{
+	float: none;
+	width: auto;
+	border-top: 0 none #FFFFFF;
+	padding-left: 9em;
+	background-image: none;
+}
+
+#success
+{
+	width: 28em;
+	border-top: 1px solid #BFBAB0;
+	border-bottom: 1px solid #BFBAB0;
+	padding: 1em;
+	background-color: #F2EFE9;
+}

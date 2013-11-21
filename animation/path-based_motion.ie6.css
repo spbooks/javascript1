@@ -1,0 +1,4 @@
+#soccerBall {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="soccer_ball.png", sizingMethod="crop");
+}

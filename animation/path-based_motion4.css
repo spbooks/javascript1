@@ -1,0 +1,18 @@
+#grass {
+  background-image: url(grass.jpg);
+  border-top: 1px solid #FFF;
+  height: 300px;
+  position: relative;
+  width: 750px;
+}
+
+#soccerBall {
+  background-image: url(soccer_ball.png);
+  background-repeat: no-repeat;
+  height: 125px;
+  left: 0;
+  margin-top: 25px;
+  position: absolute;
+  top: 0;
+  width: 125px;
+}
